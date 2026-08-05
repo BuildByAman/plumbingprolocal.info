@@ -6,6 +6,7 @@
 
   <title>{{ (title | safe) if title else (site.BRAND + " | Same Day Plumbing Service") }}</title>
   <meta name="description" content="{{ (description | safe) if description else 'Professional plumbing services near you. Emergency plumber, drain cleaning, water heater repair, pipe leak repair, toilet repair, and more. Call 24/7.' }}">
+  <meta name="keywords" content="Plumbing Pro Local, Plumbing Pro, Local Plumbing Pro, Plumbing Professional Local, Local Plumber Pros, Local Plumbing Professional, Plumbing Pros">
 
   {# Canonical & SEO #}
   <link rel="canonical" href="{{ site.DOMAIN }}{{ page.url }}">
@@ -38,7 +39,7 @@
 
   {# Twitter Card #}
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:site" content="@plumberproslocal">
+  <meta name="twitter:site" content="@plumbingprolocal">
   <meta name="twitter:title" content="{{ (title | safe) if title else (site.BRAND + ' | Same Day Plumbing Service') }}">
   <meta name="twitter:description" content="{{ (description | safe) if description else 'Professional plumbing services near you. Emergency plumber, drain cleaning, water heater repair, pipe leak repair, toilet repair, and more. Call 24/7.' }}">
   <meta name="twitter:image" content="{{ site.DOMAIN }}/assets/images/global_hero.webp">
@@ -76,6 +77,7 @@
         "@id": "{{ site.DOMAIN }}/#website",
         "url": "{{ site.DOMAIN }}/",
         "name": "{{ site.BRAND }}",
+        "alternateName": ["Plumbing Pro Local", "PlumbingProLocal", "Plumbing Pro", "Plumbing Pro Local USA"],
         "description": "24/7 Emergency Plumbing Services Nationwide"
       },
       {
@@ -247,7 +249,7 @@
         </div>
         <div class="footer-contact-item">
           <span class="ci-icon"><i class="ph ph-envelope"></i></span>
-          <p><a href="mailto:info@plumberproslocal.com">info@plumberproslocal.com</a></p>
+          <p><a href="mailto:info@plumbingprolocal.com">info@plumbingprolocal.com</a></p>
         </div>
         <div class="footer-contact-item">
           <span class="ci-icon"><i class="ph ph-clock"></i></span>
