@@ -29,9 +29,10 @@ export default {
     metaTitle: (data) => {
       const stateName = data.state.name;
       const rand = getSeededRandom(data.state.slug);
-      const variation = Math.floor(rand() * 3);
+      const variation = Math.floor(rand() * 4);
       
       const titles = [
+        `Plumbing Services in ${stateName} - ${data.site.BRAND}`,
         `Emergency Plumber ${stateName} | 24/7 Service`,
         `Plumber ${stateName} | Same Day Service`,
         `Local Plumber ${stateName} | 24/7 Emergency Repairs`
@@ -41,9 +42,10 @@ export default {
     metaDesc: (data) => {
       const stateName = data.state.name;
       const rand = getSeededRandom(data.state.slug);
-      const variation = Math.floor(rand() * 3);
+      const variation = Math.floor(rand() * 4); // changed to 4 since there are 4 items now
       
       const descs = [
+        `Looking for a plumber in ${stateName}? Contact ${data.site.BRAND} at ${data.site.PHONE} for same day plumbing service. We offer 24/7 emergency plumbing repairs and drain cleaning.`,
         `Looking for an emergency plumber in ${stateName}? We provide 24/7 plumbing services, drain cleaning, and leak repairs. Call now for same day service!`,
         `Need a reliable plumber in ${stateName}? Our local experts offer same day service for water heaters, clogs, and emergency plumbing repairs. Call us 24/7.`,
         `Top-rated local plumber in ${stateName}. We specialize in 24/7 emergency plumbing, pipe leak repairs, and drain cleaning. Get fast, reliable service today!`

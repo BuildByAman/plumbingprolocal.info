@@ -32,6 +32,7 @@ export default {
       const state = data.item.state.abbr;
       const rand = getSeededRandom(`title-${data.item.city.slug}`);
       const titles = [
+        `Plumbing Services in ${city}, ${state} - ${data.site.BRAND}`,
         `Emergency Plumber ${city}, ${state} | 24/7 Service`,
         `Plumber ${city}, ${state} | Same Day Service`,
         `Local Plumber ${city}, ${state} | 24/7 Emergency Repairs`
@@ -43,6 +44,7 @@ export default {
       const state = data.item.state.abbr;
       const rand = getSeededRandom(`desc-${data.item.city.slug}`);
       const descs = [
+        `Looking for a plumber in ${city}, ${state}? Contact ${data.site.BRAND} at ${data.site.PHONE} for same day plumbing service. We offer 24/7 emergency plumbing repairs and drain cleaning.`,
         `Looking for an emergency plumber in ${city}, ${state}? We provide 24/7 plumbing services, drain cleaning, and leak repairs. Call now for same day service!`,
         `Need a reliable plumber in ${city}, ${state}? Our local experts offer same day service for water heaters, clogs, and emergency plumbing repairs. Call us 24/7.`,
         `Top-rated local plumber in ${city}, ${state}. We specialize in 24/7 emergency plumbing, pipe leak repairs, and drain cleaning. Get fast, reliable service today!`
