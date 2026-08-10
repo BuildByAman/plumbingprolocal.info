@@ -4,8 +4,8 @@
   "description": "Top-rated local plumbing services across the USA. 24/7 emergency plumbing, drain cleaning, water heater repair and more.",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#060e1f",
-  "theme_color": "#1a56db",
+  "background_color": "#0a1628",
+  "theme_color": "#2563eb",
   "orientation": "portrait",
   "icons": [
     {
